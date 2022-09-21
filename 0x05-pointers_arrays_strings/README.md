@@ -1,26 +1,22 @@
-# Pointers, arrays and strings
+<h1>C - Pointers</h1>
+File 0-strcat.c is a function that concatenates two strings.
 
-Project done during **Full Stack Software Engineering** at **ALX SE**. About pointers and arrays in **C language**.
+File 1-strncat.c is a function that concatenates two strings that will use at most n bytes from src.
 
-## Technologies
-* C files are compiled using `gcc`
-* C files are written according to the Betty coding standard
-* Tested on Ubuntu 20.04 LTS
+File 2-strncpy.c is a function that copies a string.
 
-## Files
-All of the following files are programs written in C:
+File 3-strcmp.c is a function that compares two strings.
 
-| Filename | Description |
-| -------- | ----------- |
-| `0-reset_to_98.c` | Takes a pointer to an `int` as parameter and updates the value it points to `98` |
-| `1-swap.c` | Swaps the values of two integers |
-| `2-strlen.c` | Returns the length of a string |
-| `3-puts.c` | Prints a string to `stdout` |
-| `4-print_rev.c` | Prints a string, in reverse |
-| `5-rev_string.c` | Reverses a string |
-| `6-puts2.c` | Prints every other character of a string, starting with the first character |
-| `7-puts_half.c` | Prints half of a string |
-| `8-print_array.c` | Prints `n` elements of an array of integers |
-| `9-strcpy.c` | Copies the string pointed to by `src`, including the terminating null byte, to the buffer pointed to by `dest` |
-| `100-atoi.c` | Converts a string to an integer |
-| `101-keygen.c` | Generates random valid passwords for the program `101-crackme` |
+File 4-rev_array.c a function that reverses the content of an array of integers.
+
+File 5-string_toupper.c is a function that changes all lowercase letters of a string to uppercase.
+
+File 6-cap_string.c is a function that capitalizes all words of a string.
+
+File 7-leet.c is a function that encodes a string into 1337.
+
+File 8-rot13.c is a function that encodes a string using rot13.
+
+File _putchar.c is a function that replaces the standard library function putchar().
+
+File holberton.h is the header file containing all the function prototypes.

@@ -13,7 +13,6 @@ int _atoi(char *s)
 	{
 		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
 			break;
-
 		if (*(s + count) == '-')
 			pn *= -1;
 
